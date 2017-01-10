@@ -46,7 +46,11 @@ ol > li {
   background-color: grey;
 }
 
-ol:nth-child(odd) {
+ul > li {
+  background-color: white;
+}
+
+li:nth-child(2n+1) {
   background-color: green;
 }
 
